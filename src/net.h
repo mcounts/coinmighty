@@ -116,7 +116,7 @@ extern bool fDiscover;
 extern bool fUseUPnP;
 extern uint64 nLocalServices;
 extern uint64 nLocalHostNonce;
-extern boost::vnThreadsRunning[THREAD_MAX];
+extern boost::array<int, THREAD_MAX> vnThreadsRunning;
 extern CAddrMan addrman;
 
 extern std::vector<CNode*> vNodes;
