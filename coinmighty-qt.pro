@@ -14,27 +14,7 @@ CONFIG += no_include_pwd
 # Dependency library locations can be customized with:
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
-macx:BOOST_LIB_SUFFIX=-mt
 
-BOOST_INCLUDE_PATH=/opt/local/include/boost
-BOOST_LIB_PATH=/opt/local/include/boost
-
-BDB_INCLUDE_PATH=/opt/local/include/db53
-
-BDB_LIB_PATH=/opt/local/lib/db53
-
-OPENSSL_INCLUDE_PATH=/opt/local/include/openssl
-
-OPENSSL_LIB_PATH=/opt/local/lib/openssl
-
-MINIUPNPC_LIB_PATH=/opt/local/lib/miniupnpc
-
-MINIUPNPC_INCLUDE_PATH=/opt/local/include/miniupnpc
-
-
-LIBS += -L/opt/local/include
-
-LIBS += -L/opt/local/include/db53
 
 OBJECTS_DIR = build
 MOC_DIR = build
