@@ -249,11 +249,11 @@ std::string HelpMessage()
         "  -maxreceivebuffer=<n>  " + _("Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)") + "\n" +
         "  -maxsendbuffer=<n>     " + _("Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)") + "\n" +
 #ifdef USE_UPNP
-#if USE_UPNP
-        "  -upnp                  " + _("Use UPnP to map the listening port (default: 1 when listening)") + "\n" +
-#else
+//#if USE_UPNP
+//        "  -upnp                  " + _("Use UPnP to map the listening port (default: 1 when listening)") + "\n" +
+//#else
         "  -upnp                  " + _("Use UPnP to map the listening port (default: 0)") + "\n" +
-#endif
+//#endif
 #endif
         "  -detachdb              " + _("Detach block and address databases. Increases shutdown time (default: 0)") + "\n" +
         "  -paytxfee=<amt>        " + _("Fee per KB to add to transactions you send") + "\n" +
