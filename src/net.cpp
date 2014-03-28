@@ -329,8 +329,8 @@ bool GetMyExternalIP2(const CService& addrConnect, const char* pszGet, const cha
                 }
             }
             closesocket(hSocket);
-            if (strLine.find("<") != string::npos)
-                strLine = strLine.substr(0, strLine.find("<"));
+            if (strLine.find('<') != string::npos)
+                strLine = strLine.substr(0, strLine.find('<'));
             strLine = strLine.substr(strspn(strLine.c_str(), " \t\n\r"));
             while (strLine.size() > 0 && isspace(strLine[strLine.size()-1]))
                 strLine.resize(strLine.size()-1);
