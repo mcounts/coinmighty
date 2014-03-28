@@ -16,9 +16,8 @@ CONFIG += no_include_pwd
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
 macx:BOOST_LIB_SUFFIX=-mt
 
-BOOST_INCLUDE_PATH=/opt/local/include/
-
-BOOST_LIB_PATH=/opt/local/lib
+BOOST_INCLUDE_PATH=/opt/local/include/boost
+BOOST_LIB_PATH=/opt/local/include/boost
 
 BDB_INCLUDE_PATH=/opt/local/include/db53
 
