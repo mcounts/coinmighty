@@ -531,9 +531,9 @@ bool AppInit2()
     fNoListen = !GetBoolArg("-listen", true);
     fDiscover = GetBoolArg("-discover", true);
     fNameLookup = GetBoolArg("-dns", true);
-#ifdef USE_UPNP
-    fUseUPnP = GetBoolArg("-upnp", USE_UPNP);
-#endif
+//#ifdef USE_UPNP
+//    fUseUPnP = GetBoolArg("-upnp", USE_UPNP);
+//#endif
 
     bool fBound = false;
     if (!fNoListen)
