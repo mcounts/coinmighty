@@ -11,14 +11,7 @@ as a proof of work scheme and is intended for microtransactions.
 
 All of the coin parameters are chosen arbitrarily or at most with 'fairness' towards everyone in mind.
 
-So actually, this 'new' coin exists for the following reasons:
- - CMY proves that really anyone(!) can start a Litecoin/Bitcoin based currency
-    (just look at the changes I applied to the original Litecoin source,
-     for genesis block generation look at main.cpp)
- - allows me to experiment with coin parameters (in a private network)
-
-Finally, I only tested the command line server/tool 'coinmighty' for the
-first 30 blocks. Credits go to the original authors/communities that
+Credits go to the original authors/communities that
 created Bitcoin and Litecoin.
 
 Development process
