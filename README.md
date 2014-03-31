@@ -3,7 +3,7 @@ as a proof of work scheme and is intended for microtransactions.
  - 15 minute block targets ;)
  - 40 billion total coins
  - no subsidy within the first 3 days and after approximately 5 years;
-    in between: 4 coins per generated block
+    in between: 200 coins per generated block
  - difficulty retargets every 1 day
  - currently peers are looked up over IRC only
  - currently no block checkpoints are in the code (but could be easily
