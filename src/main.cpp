@@ -2080,7 +2080,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         block.print();
         assert(false && block.GetHash() == hashGenesisBlock);
-
+        
         // Start new block file
         unsigned int nFile;
         unsigned int nBlockPos;
