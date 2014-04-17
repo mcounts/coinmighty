@@ -6,7 +6,7 @@
 class QMenu;
 class QIcon;
 class QWidget;
-/** class objc_object; */
+class objc_object;
 
 #ifdef __OBJC__
 @class DockIconClickEventHandler;
