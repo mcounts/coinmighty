@@ -21,7 +21,7 @@ class MacDockIconHandler : public QObject
     Q_OBJECT
 public:
     ~MacDockIconHandler();
-    DockIconClickEventHandler *m_dockIconClickEventHandler;
+    
     QMenu *dockMenu();
     void setIcon(const QIcon &icon);
 
